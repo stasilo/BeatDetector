@@ -3,15 +3,11 @@ written by Jakob Stasilowicz
 
 kontakt [at] stasilo.se
  
-A pretty rudimentary but working beat detector. Built using the Web audio api. 
-Based on comparing average shift in freq amplitudes in a current sample to a sample history.
-Catches heavy beat hits pretty accurately (techno, house, hip hop, that kinda stuff)
+A pretty rudimentary but working beat detector. Built using the Web audio api. Based on comparing average shift in freq amplitudes in a current sample to a sample history. Catches heavy beat hits pretty accurately (techno, house, hip hop, that kinda stuff)
  
-BPM calculation funcionality mostly for kicks: don't use it for anything exact, there are
-far better options. 
+BPM calculation funcionality mostly for kicks: don't use it for anything exact, there are far better options. 
  
 Based on the frequency select-algorithm (the web audio api does fft-calculations for us) but without band splitting from: 
-
 http://archive.gamedev.net/archive/reference/programming/features/beatdetection/index.html 
 
 Example usage: 
