@@ -16,8 +16,9 @@ http://archive.gamedev.net/archive/reference/programming/features/beatdetection/
 
 Example usage: 
  
-var song = new stasilo.BeatDetector( {sens: 5.0, visualizerFFTSize: 256, analyserFFTSize: 256,
-passFreq: 600, url: "file.mp3"} ); 
+var song = new stasilo.BeatDetector( { 	sens: 5.0, visualizerFFTSize: 256, 
+									 	analyserFFTSize: 256, passFreq: 600, 
+									 	url: "file.mp3" } ); 
 
 
 
