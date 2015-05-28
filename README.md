@@ -16,7 +16,7 @@ var song = new stasilo.BeatDetector({sens: 				5.0,
 									 passFreq:          600,
 									 url:               "file.mp3" } ); 
 ```
- ---
+
 ### Usage
 To get frequency data for drawing bars and what not:
 
@@ -36,7 +36,7 @@ from the render loop of your script. Returns true if song is on a beat.
  
 For everything else, see the source. 
 
- ---
+
 Settings
 ----------
 > **sens:**
@@ -74,14 +74,14 @@ http://www.independentrecording.net/irn/resources/freqchart/main_display.htm
 >**progress(obj):**		
 > A callback run while sound is downloading from url. An object of {percent: value, complete: boolean} is passed as an argument. Useful for when loading sounds through ajax. 
 
----
+
 
 Browser support
 -------------------
 Please see: http://caniuse.com/#feat=audio-api
 	
 
----
+
 
 Contact
 -------------------
